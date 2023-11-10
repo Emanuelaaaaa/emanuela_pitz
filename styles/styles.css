@@ -1,11 +1,38 @@
-h1 {
-color: blueviolet;
+html{
+    font-size: 14px;
 }
 
-p, ul, li {
-color: blueviolet;
+h3
+{
+    color: blue;
+    background-color: antiquewhite;
+    font-family: font-family: 'Poppins', sans-serif;;
+
+}
+body {
+    background-color: rgb(102, 151, 135);
 }
 
-.paragraf1 {
-    color: darksalmon;
+h1{
+    color: #00A9FF;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+/* *oznaka kalse* */
+.paragraf1 { 
+    color: #00A9FF;
+    font-weight: 700;
+    
+    font-size: 30px;
+    }
+
+ #paragraf2{
+        color: blueviolet;
+        font-size: 2rem;
+        font-weight: lighter;
+    }
+
+    h6 {
+        font-size: medium;
+        text-align: center;
+    }
