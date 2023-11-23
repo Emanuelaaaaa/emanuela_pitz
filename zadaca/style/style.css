@@ -1,0 +1,76 @@
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    color: #4CAF50;
+}
+#main-title{ 
+    font-size: 4rem;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+}
+.paragraf1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #37474F;
+}
+.paragraf2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color:#37474F ;
+}
+.paragraf3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color:  #546E7A;
+}
+.paragraf4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #546E7A;
+}
+.paragraf5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #78909C;
+}
+.paragraf6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #78909C;
+}
+
+#glavno{
+    background-color: #ECEFF1;
+}
+.prva{
+    list-style-type: circle;
+}
+.druga{
+    list-style-type: square;
+
+}
+.treca{
+    list-style-type: georgian;
+}
+.cetvrta {
+    list-style-type: decimal-leading-zero;
+}
+.peta{
+    list-style-type: decimal;
+}
+.sesta{
+    list-style-type: lower-greek;
+}
+.sedma{
+    list-style-type: lower-roman;
+}
+.osma{list-style-type: lower-alpha;
+}
+.highlight {
+    color: #FFC107;
+}
