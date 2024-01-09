@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
     <title>Moja web stranica</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
    <!--  <style>
         h1 {
             color: red;
@@ -18,71 +19,73 @@
     
 </head>
 <body>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Dobro došli</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
 
-    <div class="box1">Prvi dio</div>
-    <div class="box2">Drugi dio</div>
-    <div class="box3">Treci dio</div>
+      <hr><hr> <hr> <hr> <hr> 
+<h1 style="red">Moja web stranica</h1>
+<!--Ovdje kreće paragraf--> 
+<p class="paragraf1">O meni</p>
+
+<p id="paragraf2"> Ja sam <strong>Ema</strong> , studiram <em>Učiteljski</em> falutlete u Slavonskom Brodu.
+    U slobodno vrijeme volim se rolati i gledati filmove.</p>
 
 
-<h1 style="red">Naslov 1</h1>
-<h2>Nalov 2</h2>
-<h3>Nalov 3</h3>
-<h4>Nalov 4</h4>
-<h5>Nalov 5</h5>
-<h6>Nalov 6</h6>
-<!--Ovdje kreće paragraf-->
-ovo je prvi recusand
-ovo je drugi recusand
-ovo je trći red
-<p class="paragraf1">Ovo je neki tekst</p>
-<pre>
-    ovo je prvi red
-    ovo je drugi red
-    ovo je trći red
-</pre>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolor quod veritatis libero illum 
-    voluptates odio minima nobis, unde harum itaque architecto soluta voluptas beatae ut. Nihil consectetur
-     ipsa saepe?
-Quam unde pariatur error accusamus eius temporibus voluptates debitis, iure exercitationem soluta alias? 
-Fuga est sint officiis beatae dolorem omnis ab tempora numquam eaque quis architecto molestias, explicabo 
-cumque quibusdam.
-Quisquam tenetur, cumque ea cupiditate at autem corrupti est officia corporis quia aliquid fugit temporibus 
-maxime dolor sapiente reiciendis dolores possimus praesentium impedit. Laudantium corporis veritatis ad odio,
- error distinctio?
-Exercitationem, culpa, nemo quia fugit recusandae dolore hic error rerum esse harum modi odit nisi praesentium
- sunt delectus! Explicabo sunt unde soluta ea ex facere atque illum culpa repellendus ipsam.
-Accusamus quae excepturi beatae? Minus nesciunt ducimus autem praesentium excepturi eaque cumque nam neque 
-iusto, quisquam saepe? Itaque, beatae aspernatur eum, voluptate magnam, dolorem iste cum error blanditiis
- animi tempore.</p> 
-
-<p id="paragraf2">Jučer smo igrali <strong>loše</strong>, jako <em>loše</em> to nije bilo <mark>prepoznatljivo</mark>. nakon 
-    dugo  <del>vremena</del> smo utakmicu
-     gdje smo svi bili loši. Ja ću preuzeti odgovornost na sebe jer očito taktički nisam dobro pripremio 
-     utakmicu... Teško je pao svima poraz, nismo naučili na ovakve stvari, podigli smo letvicu jako visoko 
-     i teško je to održati. ne kukam nikad nikad, nisam sklon ni tragediji ni euforiji. Žao mi je što izgubili
-      u ovakvoj atmosferi. Žao mi je zbog tih ljudi, isprika svima njima - kazao je Dalić.</p>
-
-
-      <p>
-        formula za toriju relativnosti E=MC <sup>2</sup>
-      </p>
+    
       <h2>Liste</h2>
-      <p>Zemlje:</p>
+      <p>Mjesta koja bih voljela posjetiti:</p>
       <ul>
-        <li>Hrvatska</li>
-        <li>Bosna</li>
-        <li>Slovenija</li>
-        <li>Crna Gora</li>
+        <li>Bali</li>
+        <li>Dubai</li>
+        <li>Rim</li>
+        <li>Sevilja</li>
       </ul>
 
-      <p>Zemlje u okruženju:</p>
-      <ol type="A" reversed>
-        <li>Hrvatska</li>
-        <li>Slovenija</li>
-        <li>Bosna</li>
-      </ol>
+      <p>Najdraži grada:</p>
+        <ol type="A" reversed>
+        <li>Pariz</li>
+        <li>London</li>
+        </ol>
 
-      <p>Definition list</p>
       <dl>
           <dt>London</dt>
           <dd>glavni grad Engleske</dd>
@@ -92,22 +95,15 @@ iusto, quisquam saepe? Itaque, beatae aspernatur eum, voluptate magnam, dolorem 
           <dd>glavni grad Francuske</dd>
           <img src="slike/pariz.jpg" alt="slika pariza" width="300" height="250">
       </dl>
+      <br><br><br><br>
 
-      <h3>URL SLIKE</h3>
-<p>logo unisb i link na <a href="https://www.unisb.hr/" target="_blank">UNISB</a> </p>
-<img src="https://www.unisb.hr/wp-content/uploads/design/logo_s_f.png" alt="logo unisb">
+      <h3>Ako želiš putovati, a ne znaš kako obrati se njima... </h3>
+<p>Pogledaj stranicu i sam vidi svida li ti ova ponuda kao i meni <a href="https://www.funfactory.hr" target="_blank">funfactory</a> </p>
+<img src="https://www.funfactory.hr/cdn/shop/files/FF_LOGO.png?crop=center&height=1200&v=1674135591&width=1200" alt="funfactory">
 
-<h2>LINKOVI</h2>
-<p>Logo.UNISB</p>
-<img src="https://www.unisb.hr/wp-content/uploads/design/logo_s_f.png" alt="uni">
 
-<p>Relativni linkovi</p>
-<ul>
-    <li><a href="link1.html">Link 1</a></li>
-    <li><a href="link2.html">Link 2</a></li>
-    <li><a href="link3.html">Link 3</a></li>
-</ul>
     <h3>Zadaća</h3>
+   
     <ol>
         <li><a href="zadaca/zadaca1.html" target="_blank">zadaća</a></li>
         <li><a href="zadaca/zadaca2.html" target="_blank">zadaća</a></li>
@@ -116,6 +112,12 @@ iusto, quisquam saepe? Itaque, beatae aspernatur eum, voluptate magnam, dolorem 
         <li><a href="zadaca/zadaca5.html">zadaća</a></li>
         <li><a href="zadaca/zadaca6.html">zadaća</a></li>
     </ol>
+
+    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar w-75"></div>
+      </div>
+
+      <br><br><br>
 <h3>Tablice u HTML-u</h3>
 <table border = "1">
     <tr>
