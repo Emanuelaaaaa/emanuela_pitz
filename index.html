@@ -19,79 +19,62 @@
     
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Dobro došli</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-dark">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li>
-              </ul>
-              <form class="d-flex mt-3" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-success" type="submit">Search</button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </nav>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Dobrodošli!</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">O meni</a>
+          </li>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+      </div>
+    </div>
+  </nav>
 
-      <hr><hr> <hr> <hr> <hr> 
 <h1 style="red">Moja web stranica</h1>
+<br>
 <!--Ovdje kreće paragraf--> 
 <p class="paragraf1">O meni</p>
 
 <p id="paragraf2"> Ja sam <strong>Ema</strong> , studiram <em>Učiteljski</em> falutlete u Slavonskom Brodu.
     U slobodno vrijeme volim se rolati i gledati filmove.</p>
+    <br><br>
 
-
+    <div class="list-group">
+      <h2><a href="#" class="list-group-item list-group-item-action">Mjesta koja bih voljela posjetiti:</a></h2>
     
-      <h2>Liste</h2>
-      <p>Mjesta koja bih voljela posjetiti:</p>
-      <ul>
-        <li>Bali</li>
-        <li>Dubai</li>
-        <li>Rim</li>
-        <li>Sevilja</li>
-      </ul>
-
-      <p>Najdraži grada:</p>
-        <ol type="A" reversed>
-        <li>Pariz</li>
-        <li>London</li>
-        </ol>
-
+      <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Bali</a>
+      <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">Dubai</a>
+      <a href="#" class="list-group-item list-group-item-action list-group-item-success">Rim</a>
+      <a href="#" class="list-group-item list-group-item-action list-group-item-danger">Sevilja</a>
+      <a href="#" class="list-group-item list-group-item-action list-group-item-warning">New York</a>
+    </div>
+    <br><br>
+    <ul class="list-group">
+     <h2><li class="list-group-item">Najdraži gradovi:</li></h2>
+      <li class="list-group-item">Pariz</li>
+      <li class="list-group-item">London</li>
+      <li class="list-group-item">A fourth item</li>
+      <li class="list-group-item">And a fifth one</li>
+    </ul>
+    <br><br>
+    
       <dl>
-          <dt>London</dt>
+          <h2><dt>London</dt></h2>
           <dd>glavni grad Engleske</dd>
-          <img src="slike/london.webp" alt="slika londona">
+          <img src="slike/london.webp" alt="slika londona" width="300" height="250">
 
-          <dt>Pariz</dt>
+          <h2><dt>Pariz</dt></h2>
           <dd>glavni grad Francuske</dd>
           <img src="slike/pariz.jpg" alt="slika pariza" width="300" height="250">
       </dl>
@@ -99,104 +82,61 @@
 
       <h3>Ako želiš putovati, a ne znaš kako obrati se njima... </h3>
 <p>Pogledaj stranicu i sam vidi svida li ti ova ponuda kao i meni <a href="https://www.funfactory.hr" target="_blank">funfactory</a> </p>
-<img src="https://www.funfactory.hr/cdn/shop/files/FF_LOGO.png?crop=center&height=1200&v=1674135591&width=1200" alt="funfactory">
+<img src="https://www.funfactory.hr/cdn/shop/files/FF_LOGO.png?crop=center&height=1200&v=1674135591&width=1200" alt="funfactory" width="400" height="250">
 
-
+<br><br>
     <h3>Zadaća</h3>
-   
-    <ol>
-        <li><a href="zadaca/zadaca1.html" target="_blank">zadaća</a></li>
-        <li><a href="zadaca/zadaca2.html" target="_blank">zadaća</a></li>
-        <li><a href="zadaca/zadaca3.html">zadaća</a></li>
-        <li><a href="zadaca/zadaca4.html">zadaća</a></li>
-        <li><a href="zadaca/zadaca5.html">zadaća</a></li>
-        <li><a href="zadaca/zadaca6.html">zadaća</a></li>
-    </ol>
+    <a class="icon-link" href="zadaca/zadaca1.html">
+      <svg class="bi" aria-hidden="true"><use xlink:href="#box-seam"></use></svg>
+      Prva zadaća 
+    </a> 
+      <a class="icon-link" href="zadaca/zadaca2.html"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+        <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+      </svg>
+        <svg class="bi" aria-hidden="true"><use xlink:href="#box-seam"></use></svg>
+        Druga zadaća 
+      </a>
+      <a class="icon-link" href="zadaca/zadaca3.html"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+        <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+      </svg>
+        <svg class="bi" aria-hidden="true"><use xlink:href="#box-seam"></use></svg>
+        Treća zadaća
+      </a>
+
+   <a class="icon-link" href="zadaca/zadaca4.html"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+    <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+  </svg>
+  <svg class="bi" aria-hidden="true"><use xlink:href="#box-seam"></use></svg>
+  Četvrta zadaća
+</a>
+
+<a class="icon-link" href="zadaca/zadaca5.html"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+  <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+</svg>
+  <svg class="bi" aria-hidden="true"><use xlink:href="#box-seam"></use></svg>
+  Peta zadaća 
+</a>
+
+<a class="icon-link" href="zadaca/zadaca6.html"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+  <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+</svg>
+  <svg class="bi" aria-hidden="true"><use xlink:href="#box-seam"></use></svg>
+  Šesta zadaća 
+</a>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+  <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+</svg>
+<br><br>
 
     <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
         <div class="progress-bar w-75"></div>
       </div>
 
       <br><br><br>
-<h3>Tablice u HTML-u</h3>
-<table border = "1">
-    <tr>
-        <td>1. red, ćelija 1</td>
-        <td>1. red ćelija 2</td>
-    </tr>
-    <tr>
-        <td>2. red, ćelija 1</td>
-        <td>2. red ćelija 2</td>
-    </tr>
-    <tr>
-        <td>3. red, ćelija 1</td>
-        <td>3. red ćelija 2</td>
-    </tr>
-</table>
-<br>
-<hr>
-<br>
-<table border = "1"> 
-    <caption>Tablica 1</caption>
-    <tr>
-        <th>1. red, ćelija 1</th>
-        <th>1. red ćelija 2</th>
-    </tr>
-    <tr>
-        <td>2. red, ćelija 1</td>
-        <td>2. red ćelija 2</td>
-    </tr>
-    <tr>
-        <td>3. red, ćelija 1</td>
-        <td>3. red ćelija 2</td>
-    </tr>
-</table>
 
-<br>
-<hr>
-<br>
-
-<table border = "1">
-    <tr>
-        <th colspan="3">1. red ćelija 1</th>
-    </tr>
-<tr>
-    <td> 2. red ćelija 1 </td>
-    <td>2. red ćelija 2</td>
-    <td>2. red ćelija 3</td>
-</tr>
-<tr>
-    <td>3. red ćelija 1</td>
-    <td colspan="2">3. red ćelija 2 i 3</td>
-</tr>
-</table>
-
-<br>
-<hr>
-<br>
-
-<table border = "1">
-    <tr>
-        <th rowspan="3">1. red, ćelija 1</th>
-        <th>1. red, ćelija 2</th>
-        <th>1. red, ćelija 3</th>
-    </tr>
-    <tr>
-        <td rowspan="2">2. red, ćelija 2</td>
-        <td>2. red, ćelija 3</td>
-    </tr>
-    <tr>
-        <td>3. red, ćelija 3</td>
-    </tr>
-</table>
-
-<br>
-<hr>
-<br>
-
-<table border="1">
-    <caption>Raspored</caption>
-    <tr>
+    <h2><caption>Moja jutarnja rutina </caption></h2>
+    <table class="table table-dark table-hover">
+      <tr>
         <th></th>
         <th>9am</th>
         <th>10am</th>
@@ -204,15 +144,15 @@
         <th>12am</th>
     </tr>
     <tr>
-        <td>Monday</td>
-        <td colspan="2"> Geography</td>
-        <td>Math</td>
-        <td>ART</td>
+        <td>PON</td>
+        <td colspan="2">Buđenje</td>
+        <td>Doručak</td>
+        <td>Šminkanje/oblačenje</td>
     </tr>
     <tr>
-        <td>Tuesday</td>
-        <td colspan="3">Gym</td>
-        <td>Home</td>
+        <td>UTO</td>
+        <td colspan="3">Buđenje</td>
+        <td>Teretana</td>
     </tr>
 
     </table>
@@ -221,7 +161,7 @@
     <hr>
     <br>
 
-    <h3>Obrasci u HTML-u</h3>
+    <h3>Ako želite sudjelovati u giveaway koji sam napravila u suradnji s FunFactory popunite sljedeći obrazac i pratite moj instagram na kojemu sam objavila pet paketa koje možete osvojiti te ću tamo 1.2.2024. objaviti pet pobjednika. </h3>
 
     <form name ="Obrazac 1" method="post" action="index.html" autocomplete="off" aria-required="false">
 <p>
@@ -234,27 +174,19 @@
 <input type="email" name="email" id="mail">
 <br>
 <br>
-<label for="pass">Vaša lozinka</label>
-<input type="password" name="password" id="pass" required>
-<br><br>
 <label for="mob">Unesi broj mobitela</label>
 <input type="tel" name="mobitel" id="mob" maxlength="10">
 <br><br>
-<label for="broj">Unesi brojeve</label>
-<input type="number" name="brojevi" id="broj">
-<label for="">Unesi boju</label>
+<label for="">Unesi omiljenu boju</label>
 <input type="color" name="boje" id="color">
 <br><br>
-<p>Izaberi programski jezik:</p>
-<input type="radio" name="ime" id="html" value="html">
-<label for="html">html</label>
+<p>Odaberi:</p>
+<input type="radio" name="ime" id="muško" value="muško">
+<label for="muško">muško</label>
 <br>
-<input type="radio" name="ime" id="css" value="css">
-<label for="css">css</label >
-    <br>
-<input type="radio" name="ime" id="js">
-<label for="js">js</label>
-<br><br>
+<input type="radio" name="ime" id="žensko" value="žensko">
+<label for="žensko">žensko</label >
+  <br><br>
 <input type="submit" value=" Pošalji">
 <input type="reset" value="Poništi">
 </p>
@@ -264,7 +196,7 @@
 <hr>
 <br>
 
-<h3>HTML form</h3>
+<h3>Želiš li da te obavjestimo o proglašenju pobjednika na tvom e-mail? Možemo to učiniti ako popuniš sljedeći obrazac...</h3>
 <form name="HTML form" method="post" action="index.html" autocomplete="off" aria-required="false">
     <p>
         <label for="name:">First name:</label>
@@ -288,7 +220,7 @@
     </p>
 </form>
 <br><br>
-<h3>Ugradnja videozapisa</h3>
+<h3>Za kraj uživaj u hit house glazbi koja je bila moj must have ovoga ljeta</h3>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vEVdZuV2eZU?si=7kPBhCDd4ieojTKb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </body>
 </html>
